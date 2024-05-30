@@ -1,0 +1,38 @@
+.sideBarContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 15vw;
+  padding: 32px;
+  align-items: center;
+  line-height: 32px;
+  gap: 16px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+hr {
+  max-width: 64px;
+}
+
+.brouseContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.brouseList li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 16px;
+  font-size: large;
+}
+
+.iconContainer i {
+  cursor: pointer;
+}

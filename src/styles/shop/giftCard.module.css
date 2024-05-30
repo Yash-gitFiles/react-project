@@ -1,0 +1,62 @@
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+}
+
+.container .imgContainer,
+.container .descContainer {
+  width: 50%;
+  height: auto;
+}
+
+.container .descContainer {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  gap: 8px;
+  padding: 16px;
+}
+.information input {
+  width: 22%;
+  padding: 0.3rem;
+}
+
+.information textarea {
+  resize: none;
+}
+.information .btn {
+  width: fit-content;
+  margin: auto;
+  background-color: black;
+}
+
+.inputGroup {
+  display: flex;
+}
+
+.inputGroup .btn {
+  background-color: black;
+  width: fit-content;
+}
+.btnContainer {
+  display: flex;
+  gap: 16px;
+  margin-right: auto;
+}
+
+.quantityAnswer {
+  display: flex;
+  align-items: center;
+}

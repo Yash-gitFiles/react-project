@@ -1,0 +1,22 @@
+/* Tab.jsx */
+.productsListContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 32px;
+}
+
+.productsListContainer li {
+  list-style-type: none;
+  background-color: #bdbdbd;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 32px;
+  font-weight: 900;
+}
+
+.productsListContainer li:hover {
+  background-color: #777373;
+}
+
+/* ProductTab.jsx */

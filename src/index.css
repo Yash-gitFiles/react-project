@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body::-webkit-scrollbar-thumb {
+  outline: none;
+  border: none;
+}
+button {
+  padding: 8px 12px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+button:hover {
+  transition: 0.2s;
+  background-color: #0a3dca;
+  border: 2px solid #0a3dca;
+  box-shadow: 4px 4px 0px #5780f0;
+}

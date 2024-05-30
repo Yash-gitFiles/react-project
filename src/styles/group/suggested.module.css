@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 16px;
+  padding: 6px;
+}
+
+.imgContainer img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.descContainer button {
+  opacity: 0;
+}
+
+.descContainer:hover button {
+  opacity: 1;
+}
+
+.container .descContainer {
+  padding: 6px;
+}
+
+.container {
+  padding: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .descContainer {
+    width: 50%;
+  }
+}

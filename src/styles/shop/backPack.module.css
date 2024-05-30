@@ -1,0 +1,34 @@
+.finalContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 16px;
+  padding: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #757575;
+  border-radius: 32px;
+}
+
+.container .descContainer {
+  line-height: 24px;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .imgContainer img {
+    height: 200px;
+    width: 200px;
+  }
+}

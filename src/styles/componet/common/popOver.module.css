@@ -1,0 +1,21 @@
+.popOverContainer {
+  position: fixed;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  max-width: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+  bottom: 100px;
+  left: -370px;
+}
+
+.popOverContainer .msgContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.visible {
+  left: 70px;
+}

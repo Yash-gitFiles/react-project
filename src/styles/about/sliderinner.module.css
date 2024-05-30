@@ -1,0 +1,74 @@
+.slide {
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 32px;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.arrowPrev {
+  left: 30px;
+}
+.arrowNext {
+  right: 30px;
+}
+
+.sliderContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin: 32px;
+}
+
+.sliderInnerContainer {
+  padding: 16px;
+  border-radius: 32px;
+  margin: 16px;
+  background-color: #e0e0e0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sliderInnerContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sliderInnerDesc h3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #fd1403;
+  padding: 0px 8px;
+  margin: 8px;
+  text-align: center;
+}
+
+.sliderInnerDesc p {
+  display: flex;
+  padding: 16px;
+  color: #3f3f38;
+}
+
+.sliderInnerDesc .descBtn {
+  background-color: black;
+  border-radius: 32px;
+}

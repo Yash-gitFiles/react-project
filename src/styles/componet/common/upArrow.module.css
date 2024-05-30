@@ -1,0 +1,19 @@
+.arrowContainer {
+  padding: 8px;
+  position: fixed;
+  z-index: 100;
+  margin-left: 92vw;
+  border: 2px solid white;
+}
+
+.arrowContainer i {
+  background-color: orange;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .arrowContainer {
+    margin-left: 85vw;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+}
+
+.ulItems {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+.ulItems li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    /* text-align: center; */
+  }
+}

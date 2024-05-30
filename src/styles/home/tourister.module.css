@@ -1,0 +1,18 @@
+.imgContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 16px;
+  background-color: black; */
+}
+
+.imgContainer img {
+  height: 80vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and(max-width:600px) {
+  .imgContainer {
+    grid-template-columns: 1fr;
+  }
+}
